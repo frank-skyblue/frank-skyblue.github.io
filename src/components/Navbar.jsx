@@ -11,7 +11,9 @@ const Navbar = () => {
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-sky-200 text-sky-50">
-      <SiSky size={50} color={"#075985"} />
+      <Link to="home" smooth={true} duration={500}>
+        <SiSky size={50} color={"#075985"} />
+      </Link>
 
       {/* Menu */}
       <ul className="hidden md:flex text-sky-900">
