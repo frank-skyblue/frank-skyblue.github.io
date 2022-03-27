@@ -89,6 +89,7 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full "
               href="https://www.linkedin.com/in/kongfrank/"
+              target="_blank"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -97,6 +98,7 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full "
               href="https://github.com/frank-skyblue"
+              target="_blank"
             >
               Github <FaGithub size={30} />
             </a>
