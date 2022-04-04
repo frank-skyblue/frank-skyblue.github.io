@@ -1,6 +1,12 @@
 import React from "react";
 
 const Contact = () => {
+  const submit = () => {
+    this.submit();
+    this.reset();
+    return false;
+  };
+
   return (
     <div
       name="contact"
@@ -8,7 +14,7 @@ const Contact = () => {
     >
       <form
         action="https://getform.io/f/e04f419b-1bbf-4369-ab08-5828b4099539"
-        onSubmit="this.submit(); this.reset(); return false;"
+        onSubmit={submit}
         method="POST"
         className="flex flex-col max-w-[600px] w-full"
       >
