@@ -7,9 +7,11 @@ const Skills = () => {
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
-          <p className="text-4xl font-bold inline border-b-4 border-sky-400 ">
-            Where I've Worked
-          </p>
+          <div className="pb-6">
+            <p className="text-4xl font-bold inline border-b-4 border-sky-400 ">
+              Where I've Worked
+            </p>
+          </div>
           <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8">
             <div className="flex flex-col">
               <p className="mt-2">
