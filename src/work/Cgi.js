@@ -115,15 +115,16 @@ const Cgi = () => {
                 I had to do a lot of experimentation.
               </p>
               <p className="mt-3 mb-4">
-                At first, I wanted to do this primarily with BeautifulSoup and
-                Requests. However, this proved difficult due to the fact that
-                the security profile data were on multiple pages and the pages
-                were layered with iframes and javascript code. Thus, after
-                consulting with more experience coworkers and some research, I
-                decided with <b>Selenium</b>.
+                At first, I wanted to do this primarily with the libraries
+                BeautifulSoup and Requests. However, this proved difficult due
+                to the fact that the security profile data were on multiple
+                pages and the pages were layered with iframes and javascript
+                code. Thus, after consulting with more experienced coworkers and
+                doing some research, I decided that <b>Selenium</b> would be the
+                answer.
               </p>
               <p>
-                Selenium provided the tools to navigate the complex web pages
+                Selenium provided me the tools to navigate the complex web pages
                 that I wanted to extract data from, and I spent the following
                 week researching how to use selenium together with various other
                 python libraries.
