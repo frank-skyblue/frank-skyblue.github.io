@@ -1,5 +1,6 @@
 import React from "react";
 import CGI from "../assets/cgi.jpg";
+import { Link } from "react-router-dom";
 
 const Skills = () => {
   return (
@@ -23,18 +24,17 @@ const Skills = () => {
                   consulting company. I was assigned to the Bell team, where I
                   was responsible for improving key products under Bell Canada.
                 </p>
-                <p className="mt-3">
+                <p className="mt-3 mb-4">
                   My primary responsibility was on the Java Test Automation
                   Project, for which the goal was to improve the efficiency of
                   the Quality Assurance Analysts. I handled aspects such as
                   documentation, development and dockerization of the project.
                 </p>
-                <p className="mt-3">
-                  This was and still is a valuable experience for me, as it was
-                  the first time I was exposed to the complex inner-workings of
-                  a large cooperation where I had to juggle between projects and
-                  handle client meetings.
-                </p>
+                <Link to="cgi">
+                  <button className="text-sm text-sky-900 group border-2 border-sky-400 px-6 py-3 my-2 flex items-center hover:bg-sky-700 hover:border-sky-700 hover:text-sky-50">
+                    More Details
+                  </button>
+                </Link>
               </p>
             </div>
             <div className="px-2 py-4">
