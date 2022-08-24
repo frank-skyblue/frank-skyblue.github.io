@@ -87,7 +87,7 @@ const Cgi = () => {
           </div>
         </div>
 
-        <div className="pt-6 flex flex-row-reverse">
+        <div className="pt-6 flex sm:flex-row-reverse flex-row">
           <p className="text-2xl font-bold inline  ">Developing the Tool</p>
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8">
@@ -96,7 +96,7 @@ const Cgi = () => {
           </div>
 
           <div className="flex flex-col">
-            <p className="mt-3 text-right">
+            <p className="mt-3 sm:text-right text-left">
               <p>
                 Since this was a new initiative, there weren't any previous
                 information within the company that I could rely on. This meant
