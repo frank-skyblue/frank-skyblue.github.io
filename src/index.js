@@ -8,8 +8,8 @@ import Cgi from "./work/Cgi";
 ReactDOM.render(
   <Router>
     <Routes>
-      <Route path="/" element={<App />}></Route>
-      <Route path="/cgi" element={<Cgi />} />
+      <Route exact path="/" element={<App />}></Route>
+      <Route exact path="/cgi" element={<Cgi />} />
     </Routes>
   </Router>,
   document.getElementById("root")

@@ -50,11 +50,7 @@ const Cgi = () => {
           </div>
 
           <div className="px-2 py-4">
-            <img
-              className="shadow-xl rounded"
-              src={CGI}
-              alt="profile picture"
-            />
+            <img className="shadow-xl rounded" src={CGI} alt="cgi" />
           </div>
         </div>
 
@@ -87,11 +83,7 @@ const Cgi = () => {
           </div>
 
           <div className="px-2 py-4">
-            <img
-              className="shadow-xl rounded"
-              src={Pyxl}
-              alt="profile picture"
-            />
+            <img className="shadow-xl rounded" src={Pyxl} alt="pyxl" />
           </div>
         </div>
 
@@ -100,11 +92,7 @@ const Cgi = () => {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8">
           <div className="px-2 py-4">
-            <img
-              className="shadow-xl rounded"
-              src={Selenium}
-              alt="profile picture"
-            />
+            <img className="shadow-xl rounded" src={Selenium} alt="selenium" />
           </div>
 
           <div className="flex flex-col">
@@ -160,7 +148,7 @@ const Cgi = () => {
             <img
               className="shadow-xl rounded"
               src={Reflection}
-              alt="profile picture"
+              alt="reflection"
             />
           </div>
         </div>

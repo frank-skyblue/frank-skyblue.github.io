@@ -18,17 +18,11 @@ const Skills = () => {
               <p className="mt-2">
                 <b className="text-2xl">CGI</b> -{" "}
                 <span className="text-sm">May 2022 - Dec 2022</span>
-                <p>
+                <p className="mb-4">
                   During the summer of 2022, I had the opportunity to work with
                   many talented people at CGI Inc., an information technology
                   consulting company. I was assigned to the Bell team, where I
                   was responsible for improving key products under Bell Canada.
-                </p>
-                <p className="mt-3 mb-4">
-                  My primary responsibility was on the Java Test Automation
-                  Project, for which the goal was to improve the efficiency of
-                  the Quality Assurance Analysts. I handled aspects such as
-                  documentation, development and dockerization of the project.
                 </p>
                 <Link to="cgi">
                   <button className="text-sm text-sky-900 group border-2 border-sky-400 px-6 py-3 my-2 flex items-center hover:bg-sky-700 hover:border-sky-700 hover:text-sky-50">

@@ -23,12 +23,6 @@ const About = () => {
               continuously, improving a little bit each and every day.
             </p>
             <p className="mt-3">
-              During the summer of 2022, I had the opportunity to work with many
-              talented people at CGI Inc., an information technology consulting
-              company. I was assigned to the Bell team, where I was responsible
-              for improving key products under Bell Canada.
-            </p>
-            <p className="mt-3">
               Some technologies I have worked with include:
               <div className="px-4 grid md:grid-cols-2">
                 <ul className="list-disc">
