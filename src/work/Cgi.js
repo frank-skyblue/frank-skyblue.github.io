@@ -3,6 +3,8 @@ import CGI from "../assets/cgi.jpg";
 import Pyxl from "../assets/pyxl.jpg";
 import Selenium from "../assets/selenium.jpg";
 import Reflection from "../assets/reflection.jpg";
+import Documents from "../assets/documents.jpg";
+import Challenges from "../assets/challenges.jpg";
 import { useEffect } from "react";
 
 const Cgi = () => {
@@ -140,6 +142,106 @@ const Cgi = () => {
                 The Python Security Profile Extraction Tool is now ready to be
                 integrated into the CGI Test Automation project to drastically
                 speed up the data collection process.
+              </p>
+            </p>
+          </div>
+
+          <div className="px-2 py-4">
+            <img
+              className="shadow-xl rounded"
+              src={Reflection}
+              alt="reflection"
+            />
+          </div>
+        </div>
+
+        <div className="pt-10">
+          <p className="text-2xl font-bold inline border-b-4 border-sky-400 ">
+            Method of Procedure Document Prime
+          </p>
+        </div>
+        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8">
+          <div className="flex flex-col">
+            <p className="mt-3">
+              <span className="text-sm">Nov 2022</span>
+              <p>
+                Another one of my major roles here at CGI is creating the{" "}
+                <b>MOP document (Method of Procedure document)</b> and hosting
+                internal/client review sessions. This role required me to
+                coordinate meetings between different members of the CGI team
+                and also the client team, which exercised my communication and
+                leadership abilities.
+              </p>
+              <p className="mt-3 mb-4">
+                The MOP document is a deployment document that outlines
+                important details about a specific project: like the QA testing
+                status, change scope, affected system components and detailed
+                deployment steps. In order to create the MOP document, I had to
+                reach out to many members belonging to different parts of the
+                team in order to gather information.
+              </p>
+            </p>
+          </div>
+
+          <div className="px-2 py-4">
+            <img className="shadow-xl rounded" src={Documents} alt="pyxl" />
+          </div>
+        </div>
+
+        <div className="pt-6 flex sm:flex-row-reverse flex-row">
+          <p className="text-2xl font-bold inline  ">
+            Challenges and Resolutions
+          </p>
+        </div>
+        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8">
+          <div className="px-2 py-4">
+            <img
+              className="shadow-xl rounded"
+              src={Challenges}
+              alt="selenium"
+            />
+          </div>
+
+          <div className="flex flex-col">
+            <p className="mt-3 sm:text-right text-left">
+              <p>
+                The main challenge of creating the MOP document is{" "}
+                <b>information gathering</b>. With CGI being an international
+                company, members inevitably face <b>timezone challenges</b> when
+                attempting to schedule meetings. This challenge is further
+                exacerbated in my role due to having to schedule meetings with
+                many different members of the team.
+              </p>
+              <p className="mt-3 mb-4">
+                Many times, I was required to <b>plan</b> meetings well in
+                advance in order to accommodate the tight schedules of my
+                colleagues. I've also learned to make my information gathering
+                process as efficient as possible, through evaluating the exact
+                information I need and asking specific, targeted questions.
+              </p>
+            </p>
+          </div>
+        </div>
+
+        <div className="pt-6">
+          <p className="text-2xl font-bold inline">What I've Learned</p>
+        </div>
+        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8">
+          <div className="flex flex-col">
+            <p className="mt-3">
+              <p>
+                Through my role as a Method of Procedure document prime, I've
+                learned to be <b>organized</b> through planning in advance and
+                using an agenda to track my progress. I've improved my{" "}
+                <b>teamwork</b> and <b>leadership</b> skills through working
+                with many different members of my team and hosting review
+                meetings.
+              </p>
+              <p className="mt-3 mb-4">
+                In my time as a Method of Procedure document prime, I've helped
+                CGI successfully deploy many projects and hosted many productive
+                meetings. Through this role, I've learned what it is like to be
+                an integral part of a dynamic and diverse team.
               </p>
             </p>
           </div>
